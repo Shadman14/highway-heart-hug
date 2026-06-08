@@ -4,6 +4,20 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --color-navy: #16202e;
+  --color-navy-soft: #1f2c3e;
+  --color-burgundy: #7a2330;
+  --color-burgundy-soft: #8f3340;
+  --color-gold: #c2a14e;
+  --color-gold-soft: #d4b86e;
+  --color-ivory: #f8f5ef;
+  --color-ivory-deep: #efe9df;
+}
+
 /*
  * Design system definition.
  *
